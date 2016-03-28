@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace AltiumTest.Engine.Impl
 {
+	/// <summary>
+	/// Simple implementation of IFileOptions.
+	/// </summary>
 	internal sealed class FileOptions : IFileOptions
 	{
 		#region Fields
@@ -17,7 +20,7 @@ namespace AltiumTest.Engine.Impl
 
 		#region .ctor
 		/// <summary>
-		/// Init fields with default values.
+		/// Initialize fields with default values.
 		/// </summary>
 		private FileOptions()
 		{

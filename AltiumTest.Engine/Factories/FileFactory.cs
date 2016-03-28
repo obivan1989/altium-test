@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AltiumTest.Engine
+namespace AltiumTest.Engine.Factories
 {
 	/// <summary>
 	/// Factory for IFileOptions.
 	/// </summary>
-	static class FileFactory
+	public static class FileFactory
 	{
 		/// <summary>
 		/// Creates instance of IFileOptions.

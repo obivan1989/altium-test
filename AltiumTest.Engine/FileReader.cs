@@ -1,4 +1,5 @@
-﻿using AltiumTest.Engine.Interfaces;
+﻿using AltiumTest.Engine.Factories;
+using AltiumTest.Engine.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace AltiumTest.Engine
 {
 	/// <summary>
-	/// Collects IFileOptions.
+	/// Contains method to collect IFileOptions from folder.
 	/// </summary>
 	public static class FileReader
 	{
