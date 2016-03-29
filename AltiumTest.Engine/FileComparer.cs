@@ -15,11 +15,11 @@ namespace AltiumTest.Engine
 	{
 		const int EIGHTMB = 8388608; 
 		/// <summary>
-		/// 
+		/// Group files with identical content.
 		/// </summary>
-		/// <param name="files"></param>
-		/// <param name="comparer"></param>
-		/// <returns></returns>
+		/// <param name="files">Files to group.</param>
+		/// <param name="comparer">IByteArrayComparer to compare files content.</param>
+		/// <returns>List of file groups with identical content.</returns>
 		public static async Task<List<List<IFileOptions>>> GetGroups(IEnumerable<IFileOptions> files, IByteArrayComparer comparer)
 		{
 			List<List<IFileOptions>> groupped = new List<List<IFileOptions>>();
